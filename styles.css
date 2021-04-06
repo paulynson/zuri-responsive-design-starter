@@ -345,3 +345,157 @@ div.footer h6 {
     font-size: 1rem;
     padding-top: 6rem;
 }
+
+
+/* Mobile Responsive */
+
+@media(max-width: 768px){
+
+    div.nav-bar {
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+    padding: 1rem 6rem;
+    width: 100vw;
+    align-items: center;
+    background: #304353;
+}
+
+.nav-links{
+    display: flex;
+    flex-direction: column;
+margin-top: 20px !important;
+justify-content: center;
+text-align: center;
+align-items: center;
+}
+
+.nav-links a{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin: 15px 0;
+}
+
+.hero-section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center !important;
+    align-items: center; 
+    text-align: center;
+}
+
+.hero-background{
+    box-sizing: border-box;
+}
+
+div.background {
+    background: #fff;
+    box-shadow: 2px 2px 15px 0 rgb(135 135 135 / 40%);
+    padding: 15px 40px;
+    width: 550px;
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+}
+
+div.hero-background-pos {
+    position: absolute;
+    right: 0px;
+    left: 70%;
+    background: #fff;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 15px 0 rgb(135 135 135 / 40%);
+}
+
+div.snapshot-box-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+div.footer{
+    background: #304353;
+    padding: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+div.footer-input {
+       display: flex;
+    margin: 10px 0;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+input[type="text"] {
+    margin-right: 10px;
+    padding: 10px 20px;
+    width: 100%;
+    box-sizing: border-box;
+    outline: none;
+    margin: 5px 0;
+    border: 1px solid #bcc3c7;
+    background: transparent;
+    color: #f0f0f0;
+    font-size: 1rem;
+    border-radius: 2px;
+}
+
+input[type="email"] {
+    margin-right: 10px;
+    padding: 10px 20px;
+    width: 100%;
+    margin: 5px 0;
+    box-sizing: border-box;
+    outline: none;
+    border: 1px solid #bcc3c7;
+    background: transparent;
+    color: #f0f0f0;
+    font-size: 1rem;
+    border-radius: 2px;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 0.5rem;
+    box-sizing: border-box;
+    
+}
+
+div.footer-textarea {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 20px;
+    width: 100%;
+}
+
+div.footer-input {
+    display: flex;
+    padding: 0 20px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 2rem;
+    width: 100%;
+}
+
+div.snapshot-team p{
+    padding: 0 20px;
+}
+
+div.footer-btn a {
+    background: #E44C65;
+    text-decoration: none;
+    color: #f0f0f0;
+    font-size: 0.9rem;
+    padding: 10px 36px;
+}
+
+}
