@@ -44,6 +44,17 @@ ul li a:hover {
     padding: 0.5rem;
 }
 
+ .fa-bars {
+    color: white;
+    display: none !important;
+    font-size: 32px !important;
+    cursor: pointer;
+  }
+  
+  .fa-bars:hover {
+    color: #e44c65;
+  }
+
 div.hero-section {
     background: #304353;
     padding: 10rem;
@@ -353,8 +364,8 @@ div.footer h6 {
 
     div.nav-bar {
     display: flex;
-    flex-direction: column;
-    justify-content: center !important;
+    /* flex-direction: column; */
+    justify-content: space-between !important;
     padding: 1rem 6rem;
     width: 100vw;
     align-items: center;
@@ -397,17 +408,6 @@ div.background {
     position: relative;
     box-sizing: border-box;
     height: auto;
-}
-
-div.hero-background-pos {
-    position: absolute;
-    right: 0px;
-    left: 70%;
-    background: #fff;
-    width: 100px;
-    height: 100px;
-    border-radius: 50%;
-    box-shadow: 2px 2px 15px 0 rgb(135 135 135 / 40%);
 }
 
 div.snapshot-box-content {
@@ -497,5 +497,40 @@ div.footer-btn a {
     font-size: 0.9rem;
     padding: 10px 36px;
 }
+
+div.hero-background-pos {
+   display:  none;
+}
+
+.logo{
+    order: 1;
+}
+
+.fa-bars {
+    display: block !important;
+    order: 2;
+  }
+ 
+    .nav-links {
+    justify-content: center !important;
+    margin-top: 50px !important;
+    display: none !important;
+     position: absolute;
+    width: 100vw !important;
+    top: 5%;
+    clear: both;
+    box-sizing: border-box !important;
+    padding: 30px 0 !important;
+    background-color: #304353;
+    left: 0%;
+    z-index: 10;
+    align-items: center !important;
+    border-bottom: 1px solid #fff;
+}
+
+.nav-links.active {
+    display: block !important;
+  }  
+
 
 }
